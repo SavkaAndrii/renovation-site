@@ -705,31 +705,8 @@ body._lock {
     padding: 110px 18px 50px;
   }
 
-  .main-screen__title {
-    font-size: clamp(2.25rem, 12vw, 4rem);
-    line-height: 1.05;
-  }
-
-  .main-screen__subtitle {
-    padding-top: 28px;
-    font-size: clamp(1.45rem, 7vw, 2.4rem);
-    line-height: 1.15;
-  }
-
   .main-screen__images {
     animation: none;
-  }
-
-  .main-screen__title {
-    transform: translateY(100%);
-    animation: mobileHeroTitleReveal 1.2s forwards;
-    animation-delay: 0.6s;
-  }
-
-  .main-screen__subtitle {
-    transform: translateX(-100%);
-    animation: mobileHeroSubtitleReveal 1.4s forwards;
-    animation-delay: 1.2s;
   }
 
   .main-screen__button {
